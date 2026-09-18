@@ -1,18 +1,24 @@
-# Naenmad Beberes
+# Homebrew Tap for Beberes
 
-## How do I install these formulae?
+Official Homebrew tap for [Beberes](https://github.com/naenmad/Beberes) - High-performance system cleaner and storage optimizer for macOS.
 
-`brew install naenmad/beberes/<formula>`
+## Installation
 
-Or `brew tap naenmad/beberes` and then `brew install <formula>`.
+Install Beberes directly with:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "naenmad/beberes"
-brew "<formula>"
+```bash
+brew install --cask naenmad/beberes/beberes
 ```
 
-## Documentation
+Or add the tap first and then install:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap naenmad/beberes
+brew install --cask beberes
+```
+
+## Update
+
+```bash
+brew upgrade --cask beberes
+```
